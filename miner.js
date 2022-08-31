@@ -17,9 +17,9 @@ let username = document
 let rigid = "mineuino-miner";
 
 if (location.protocol !== "https:") {
-  socket = new WebSocket("ws://51.15.127.80:14808", null, 5000, 5);
+  socket = new WebSocket("wss://magi.duinocoin.com:14808/", null, 5000, 5);
 } else {
-  socket = new WebSocket("wss://server.duinocoin.com:15808", null, 5000, 5);
+  socket = new WebSocket("wss://magi.duinocoin.com:14808/", null, 5000, 5);
 }
 
 socket.onmessage = function (msg) {
