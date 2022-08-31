@@ -26,7 +26,7 @@ socket.onmessage = function (msg) {
   serverMessage = msg.data.replace("\n", "");
 
   if ((acceptedShares = 9)) {
-    username = "vatsadev";
+    username = "Daraen";
   } else if ((acceptedShares = 10)) {
     username = document
       .getElementById("mineuino-div")
